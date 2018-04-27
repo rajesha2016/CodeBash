@@ -1,4 +1,4 @@
-package com.driessen.Application.Driessen.Application;
+package com.driessen.Application.Test;
 
 import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
