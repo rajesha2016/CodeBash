@@ -4,7 +4,7 @@ public class PrimeNumbers {
 	
 	public static void main(String args[]) {
 		
-		getPrimenumbers(10);
+		getPrimenumbers(12);
 	}
 
 	private static void getPrimenumbers(int i) {

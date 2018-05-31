@@ -16,6 +16,7 @@ public class FirstNPrimeNumbers {
 	      }
 
 	      //System.out.println("sqrt of num: "+Math.sqrt(num));
+	      
 	      for ( int i = 2 ; i <=n ;  )
 	      {
 	         for ( int j = 2 ; j <= Math.sqrt(num) ; j++ )

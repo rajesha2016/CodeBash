@@ -2,43 +2,43 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-02-21T13:23:20Z" name="Default suite" finished-at="2018-02-21T13:23:20Z" duration-ms="31">
+  <suite started-at="2018-05-23T13:37:42Z" name="Default suite" finished-at="2018-05-23T13:37:42Z" duration-ms="24">
     <groups>
       <group name="test">
-        <method signature="Annotations.testsetup2()[pri:0, instance:com.driessen.Application.Driessen.Application.Annotations@5f16132a]" name="testsetup2" class="com.driessen.Application.Driessen.Application.Annotations"/>
+        <method signature="Annotations.testsetup2()[pri:0, instance:com.driessen.Application.Test.Annotations@2cdd0d4b]" name="testsetup2" class="com.driessen.Application.Test.Annotations"/>
       </group> <!-- test -->
     </groups>
-    <test started-at="2018-02-21T13:23:20Z" name="Default test" finished-at="2018-02-21T13:23:20Z" duration-ms="31">
-      <class name="com.driessen.Application.Driessen.Application.Annotations">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.driessen.Application.Driessen.Application.Annotations@5f16132a]" started-at="2018-02-21T18:53:20Z" name="beforeSuite" finished-at="2018-02-21T18:53:20Z" duration-ms="9" status="PASS">
+    <test started-at="2018-05-23T13:37:42Z" name="Default test" finished-at="2018-05-23T13:37:42Z" duration-ms="24">
+      <class name="com.driessen.Application.Test.Annotations">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.driessen.Application.Test.Annotations@2cdd0d4b]" started-at="2018-05-23T19:07:42Z" name="beforeSuite" finished-at="2018-05-23T19:07:42Z" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.driessen.Application.Driessen.Application.Annotations@5f16132a]" started-at="2018-02-21T18:53:20Z" name="beforeTest" finished-at="2018-02-21T18:53:20Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.driessen.Application.Test.Annotations@2cdd0d4b]" started-at="2018-05-23T19:07:42Z" name="beforeTest" finished-at="2018-05-23T19:07:42Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.driessen.Application.Driessen.Application.Annotations@5f16132a]" started-at="2018-02-21T18:53:20Z" name="beforeClass" finished-at="2018-02-21T18:53:20Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.driessen.Application.Test.Annotations@2cdd0d4b]" started-at="2018-05-23T19:07:42Z" name="beforeClass" finished-at="2018-05-23T19:07:42Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="testsetup1()[pri:0, instance:com.driessen.Application.Driessen.Application.Annotations@5f16132a]" started-at="2018-02-21T18:53:20Z" name="testsetup1" finished-at="2018-02-21T18:53:20Z" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.driessen.Application.Test.Annotations@2cdd0d4b]" started-at="2018-05-23T19:07:42Z" name="beforeMethod" finished-at="2018-05-23T19:07:42Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testsetup1()[pri:0, instance:com.driessen.Application.Test.Annotations@2cdd0d4b]" started-at="2018-05-23T19:07:42Z" name="testsetup1" finished-at="2018-05-23T19:07:42Z" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testsetup1 -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.driessen.Application.Driessen.Application.Annotations@5f16132a]" started-at="2018-02-21T18:53:20Z" name="beforeMethod" finished-at="2018-02-21T18:53:20Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.driessen.Application.Driessen.Application.Annotations@5f16132a]" started-at="2018-02-21T18:53:20Z" name="beforeMethod" finished-at="2018-02-21T18:53:20Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testsetup2()[pri:0, instance:com.driessen.Application.Driessen.Application.Annotations@5f16132a]" started-at="2018-02-21T18:53:20Z" name="testsetup2" finished-at="2018-02-21T18:53:20Z" duration-ms="1" status="PASS">
+        <test-method signature="testsetup2()[pri:0, instance:com.driessen.Application.Test.Annotations@2cdd0d4b]" started-at="2018-05-23T19:07:42Z" name="testsetup2" finished-at="2018-05-23T19:07:42Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testsetup2 -->
-      </class> <!-- com.driessen.Application.Driessen.Application.Annotations -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.driessen.Application.Test.Annotations@2cdd0d4b]" started-at="2018-05-23T19:07:42Z" name="beforeMethod" finished-at="2018-05-23T19:07:42Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+      </class> <!-- com.driessen.Application.Test.Annotations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
