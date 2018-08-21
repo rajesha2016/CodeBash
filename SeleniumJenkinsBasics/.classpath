@@ -1,66 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="src/test/java"/>
-	<classpathentry including="**/*.java" kind="src" path="src/main/java"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="var" path="M2_REPO/org/testng/testng/6.13.1/testng-6.13.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/com/beust/jcommander/1.72/jcommander-1.72.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-java/3.9.1/selenium-java-3.9.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-api/3.9.1/selenium-api-3.9.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-chrome-driver/3.9.1/selenium-chrome-driver-3.9.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-remote-driver/3.9.1/selenium-remote-driver-3.9.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar"/>
-	<classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"/>
-	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
-	<classpathentry kind="var" path="M2_REPO/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar"/>
-	<classpathentry kind="var" path="M2_REPO/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar"/>
-	<classpathentry kind="var" path="M2_REPO/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar"/>
-	<classpathentry kind="var" path="M2_REPO/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar"/>
-	<classpathentry kind="var" path="M2_REPO/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar"/>
-	<classpathentry kind="var" path="M2_REPO/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-edge-driver/3.9.1/selenium-edge-driver-3.9.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-firefox-driver/3.9.1/selenium-firefox-driver-3.9.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-ie-driver/3.9.1/selenium-ie-driver-3.9.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-opera-driver/3.9.1/selenium-opera-driver-3.9.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-safari-driver/3.9.1/selenium-safari-driver-3.9.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-support/3.9.1/selenium-support-3.9.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
-	<classpathentry kind="var" path="M2_REPO/net/sf/robocode/robocode.api/1.9.2.1/robocode.api-1.9.2.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/robotframework/robotframework/2.8.7/robotframework-2.8.7.jar"/>
-	<classpathentry kind="var" path="M2_REPO/com/github/markusbernhardt/robotframework-selenium2library-java/1.4.0.6/robotframework-selenium2library-java-1.4.0.6.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/robotframework/javalib-core/1.2/javalib-core-1.2.jar"/>
-	<classpathentry kind="var" path="M2_REPO/commons-collections/commons-collections/3.2/commons-collections-3.2.jar"/>
-	<classpathentry kind="var" path="M2_REPO/com/thoughtworks/paranamer/paranamer/1.1.2/paranamer-1.1.2.jar"/>
-	<classpathentry kind="var" path="M2_REPO/com/github/markusbernhardt/xml-doclet/1.0.4/xml-doclet-1.0.4.jar"/>
-	<classpathentry kind="var" path="M2_REPO/commons-cli/commons-cli/1.2/commons-cli-1.2.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-server/2.39.0/selenium-server-2.39.0.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar"/>
-	<classpathentry kind="var" path="M2_REPO/mx4j/mx4j-tools/3.0.1/mx4j-tools-3.0.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/mortbay/jetty/servlet-api-2.5/6.1.9/servlet-api-2.5-6.1.9.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/jetty-repacked/7.6.1/jetty-repacked-7.6.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/yaml/snakeyaml/1.8/snakeyaml-1.8.jar"/>
-	<classpathentry kind="var" path="M2_REPO/com/opera/operadriver/1.5/operadriver-1.5.jar"/>
-	<classpathentry kind="var" path="M2_REPO/com/opera/operalaunchers/1.1/operalaunchers-1.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/ini4j/ini4j/0.5.2/ini4j-0.5.2.jar"/>
-	<classpathentry kind="var" path="M2_REPO/com/github/detro/ghostdriver/phantomjsdriver/1.1.0/phantomjsdriver-1.1.0.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.jar"/>
-	<classpathentry kind="var" path="M2_REPO/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/junit/junit/4.10/junit-4.10.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar"/>
-	<classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="src" path="src/test/java" output="target/test-classes" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+  <classpathentry kind="var" path="M2_REPO/org/testng/testng/6.13.1/testng-6.13.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/beust/jcommander/1.72/jcommander-1.72.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-java/3.13.0/selenium-java-3.13.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-api/3.13.0/selenium-api-3.13.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-chrome-driver/3.13.0/selenium-chrome-driver-3.13.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-remote-driver/3.9.1/selenium-remote-driver-3.9.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/code/gson/gson/2.8.4/gson-2.8.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-edge-driver/3.13.0/selenium-edge-driver-3.13.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-firefox-driver/3.13.0/selenium-firefox-driver-3.13.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-ie-driver/3.13.0/selenium-ie-driver-3.13.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-opera-driver/3.13.0/selenium-opera-driver-3.13.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-safari-driver/3.13.0/selenium-safari-driver-3.13.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-support/3.13.0/selenium-support-3.13.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/io/github/bonigarcia/webdrivermanager/2.2.4/webdrivermanager-2.2.4.jar" sourcepath="M2_REPO/io/github/bonigarcia/webdrivermanager/2.2.4/webdrivermanager-2.2.4-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/rauschig/jarchivelib/0.8.0/jarchivelib-0.8.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-compress/1.14/commons-compress-1.14.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar"/>
 </classpath>

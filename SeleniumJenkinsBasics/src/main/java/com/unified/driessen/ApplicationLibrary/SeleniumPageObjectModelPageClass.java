@@ -14,7 +14,7 @@ public class SeleniumPageObjectModelPageClass {
 		
 		this.driver=driver;
 	}
-
+	
 	@FindBy(id="id_001")
 	WebElement userName;
 	

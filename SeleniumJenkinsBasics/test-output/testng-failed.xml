@@ -3,11 +3,11 @@
 <suite thread-count="-1" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.driessen.Application.Driessen.Application.Annotations">
+      <class name="com.driessen.Application.Test.AlertHandling">
         <methods>
-          <include name="testsetup"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- com.driessen.Application.Driessen.Application.Annotations -->
+      </class> <!-- com.driessen.Application.Test.AlertHandling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
